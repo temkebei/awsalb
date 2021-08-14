@@ -48,3 +48,8 @@ variable "certificate_arn" {
     type = string
     default = null
 }
+
+variable "idle_timeout" {
+    type = number
+    default = 60
+}
